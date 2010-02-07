@@ -1,0 +1,261 @@
+#friendfeed.widget, #friendfeed.widget div, #friendfeed.widget span, #friendfeed.widget a, #friendfeed.widget img, #friendfeed.widget table, 
+#friendfeed.widget tr, #friendfeed.widget td {
+	background-color:white;
+	border:0 none;
+	color:black;
+	float:none;
+	font-size:13px;
+	font-weight:normal;
+	line-height:17px;
+	margin:0;
+	padding:0;
+	position:relative;
+	text-align:left;
+	width:auto;
+}
+
+#friendfeed.widget {
+	border:1px solid #437EC7;
+	font-family:Arial,sans-serif;
+	font-size:13px;
+	overflow:hidden;
+}
+
+#friendfeed.widget a {
+	-moz-background-clip:border;
+	-moz-background-inline-policy:continuous;
+	-moz-background-origin:padding;
+	background:transparent none repeat scroll 0 0;
+	color:#0000CC;
+	text-decoration:none;
+}
+
+#friendfeed.widget a:hover {
+	text-decoration:underline;
+}
+
+#friendfeed.widget a:visited {
+	color:#0000CC;
+}
+
+#friendfeed.widget .logo {
+	-moz-background-clip:border;
+	-moz-background-inline-policy:continuous;
+	-moz-background-origin:padding;
+	background:transparent url(../images/widget-top-border.png?v=1) repeat-x scroll 0 0;
+}
+
+#friendfeed.widget .logo img {
+	margin-left:5px;
+}
+
+#friendfeed.widget .feed {
+	padding-left:12px;
+	padding-right:12px;
+}
+
+#friendfeed.widget .bottom {
+	-moz-background-clip:border;
+	-moz-background-inline-policy:continuous;
+	-moz-background-origin:padding;
+	background:#CDDFF6 url(../images/widget-bottom-bg.png?v=1) repeat-x scroll 0 0;
+	border-top:1px solid #437EC7;
+	padding:3px 5px;
+}
+
+#friendfeed.widget .bottom a {
+	font-weight:bold;
+}
+
+#friendfeed.widget .clear {
+	clear:both;
+}
+
+#friendfeed.widget .entry {
+	border-bottom:1px solid #EEEEEE;
+	font-size:13px;
+	padding-bottom:10px;
+	padding-top:10px;
+}
+
+#friendfeed.widget .entry .lock {
+	float:right;
+	line-height:0;
+	margin-bottom:10px;
+	margin-left:10px;
+}
+
+#friendfeed.widget .entry .profile {
+	float:left;
+	line-height:0;
+	position:relative;
+}
+
+#friendfeed.widget .entry .body {
+	margin-left:34px;
+}
+
+#friendfeed.widget .entry.nopicture .body {
+	margin-left:0;
+}
+
+#friendfeed.widget .entry .clear {
+	clear:left;
+}
+
+#friendfeed.widget .entry .title .name {
+	margin-bottom:2px;
+}
+
+#friendfeed.widget .entry .title .name a.l_profile {
+	font-weight:bold;
+}
+
+#friendfeed.widget .entry .info, #friendfeed.widget .entry .info a, #friendfeed.widget .entry .likes .lbody, #friendfeed.widget .entry .likes a, 
+#friendfeed.widget .entry .comments .comment .content, #friendfeed.widget .entry .comments .comment .content a, #friendfeed.widget .entry .comments 
+.comment .content span, #friendfeed.widget .entry .expandcomment a, #friendfeed.widget .entry .info a.date, #friendfeed.widget .entry .info a.service, 
+#friendfeed.widget .entry .comments a.via {
+	font-size:12.5px;
+}
+
+#friendfeed.widget .entry .info, #friendfeed.widget .entry .likes .lbody, #friendfeed.widget .entry .comments .comment .content, #friendfeed.widget 
+.entry .comments .comment .content span, #friendfeed.widget .entry .info a.date, #friendfeed.widget .entry .info a.service, #friendfeed.widget .entry 
+.comments a.via {
+	color:#666666;
+}
+
+#friendfeed.widget .entry.private .info, #friendfeed.widget .entry.direct .info {
+	background-position:left center;
+	background-repeat:no-repeat;
+	padding-left:16px;
+}
+
+#friendfeed.widget .entry.private .info {
+	background-image:url(../images/lock.png);
+	padding-left:14px;
+}
+
+#friendfeed.widget .entry.direct .info {
+	background-image:url(../images/direct-small.png);
+}
+
+#friendfeed.widget .entry .info a, #friendfeed.widget .entry .likes a, #friendfeed.widget .entry .comment a, #friendfeed.widget .entry .expandcomment 
+a {
+	color:#7777CC;
+}
+
+#friendfeed.widget .entry .likes, #friendfeed.widget .entry .expandcomment, #friendfeed.widget .entry .comment, #friendfeed.widget .entry .clusterlink 
+{
+	margin-top:8px;
+}
+
+#friendfeed.widget .entry .info {
+	margin-top:2px;
+}
+
+#friendfeed.widget .entry .likes {
+	-moz-background-clip:border;
+	-moz-background-inline-policy:continuous;
+	-moz-background-origin:padding;
+	background:transparent url(../images/n-smile.png) no-repeat scroll left top;
+}
+
+#friendfeed.widget .entry .comment {
+	-moz-background-clip:border;
+	-moz-background-inline-policy:continuous;
+	-moz-background-origin:padding;
+	background:transparent url(../images/comment-lighter.png) no-repeat scroll 0 3px;
+}
+
+#friendfeed.widget .entry .comment.deleted, #friendfeed.widget .entry .comment.friend, #friendfeed.widget .entry .comment.owner {
+	background-image:url(../images/n-comment.png);
+}
+
+#friendfeed.widget .entry .likes, #friendfeed.widget .entry .expandcomment, #friendfeed.widget .entry .comment.deleted {
+	padding-left:21px;
+}
+
+#friendfeed.widget .entry .comment .content {
+	margin-left:21px;
+}
+
+#friendfeed.widget .entry .comment .quote {
+	-moz-background-clip:border;
+	-moz-background-inline-policy:continuous;
+	-moz-background-origin:padding;
+	background:transparent none repeat scroll 0 0;
+	display:inline;
+	float:left;
+	height:16px;
+	width:16px;
+}
+
+#friendfeed.widget .entry .expandcomment {
+	font-style:italic;
+}
+
+#friendfeed.widget .entry .media {
+	line-height:0;
+	margin-bottom:5px;
+	margin-top:5px;
+	overflow:hidden;
+}
+
+#friendfeed.widget .entry .media .container {
+	position:relative;
+}
+
+#friendfeed.widget .entry .media img {
+	border:1px solid silver;
+	margin-right:8px;
+	padding:1px;
+	vertical-align:middle;
+}
+
+#friendfeed.widget .entry .media div.l_play {
+	cursor:pointer;
+	position:absolute;
+	z-index:50;
+}
+
+#friendfeed.widget .entry .media div.l_play img {
+	border:0 none;
+	padding:0;
+}
+
+#friendfeed.widget .entry .media a.l_audio {
+	-moz-background-clip:border;
+	-moz-background-inline-policy:continuous;
+	-moz-background-origin:padding;
+	background:transparent url(../images/audioplay.png?v=1) no-repeat scroll 0 0;
+	display:block;
+	height:28px;
+	width:81px;
+}
+
+#friendfeed.widget .entry .media a.l_audio:hover {
+	-moz-background-clip:border;
+	-moz-background-inline-policy:continuous;
+	-moz-background-origin:padding;
+	background:transparent url(../images/audioplay-hover.png?v=1) no-repeat scroll 0 0;
+}
+
+#friendfeed.widget .entry .media td.more img {
+	border:0 none;
+}
+
+#friendfeed.widget .entry .hiddencomments {
+	display:none;
+}
+
+#friendfeed.widget .entry.nopicture .comments, #friendfeed.widget .entry.nopicture .likes {
+	margin-left:8px;
+}
+
+#friendfeed.widget .entry .file a {
+	-moz-background-clip:border;
+	-moz-background-inline-policy:continuous;
+	-moz-background-origin:padding;
+	background:transparent url(../images/filetypes/default.png) no-repeat scroll left center;
+	padding-left:20px;
+}
